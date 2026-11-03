@@ -1,0 +1,18 @@
+# Recreate environments from requirements.txt; do not commit their contents.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Local credentials and large model files.
+.env
+.env.*
+!.env.example
+*.safetensors
+*.pt
+*.pth
+
+# Keep source, JSON configurations, small reports, and the lecture PDF tracked.

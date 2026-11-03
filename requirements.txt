@@ -1,0 +1,2 @@
+# Classroom framework version. Python 3.12 and Clang are separate prerequisites.
+tinygrad==0.14.0

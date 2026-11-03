@@ -1,0 +1,23 @@
+{
+  "task": 0,
+  "seed": 0,
+  "model": {
+    "vocab_size": 36,
+    "seq_len": 9,
+    "emb_dim": 32,
+    "n_layers": 0,
+    "n_heads": 1,
+    "head_dim": 32,
+    "position_embeddings": false,
+    "mlp_layers": [],
+    "mlp_size": 64
+  },
+  "training": {
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "steps": 1000,
+    "train_examples": 10000,
+    "test_examples": 1000
+  }
+}
