@@ -66,5 +66,3 @@ Validate configurations after editing:
 ```
 
 **Current status:** setup, diagnostics, and configuration templates are available. Model implementation, data generation, and the training harness are the next stage.
-
-[Lecture slides](output/pdf/transformer-training-lab-intro.pdf) · [Previous lecture](https://boopdotpng.github.io/slide-decks/lec2-interp/#1)
