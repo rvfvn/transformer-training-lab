@@ -79,7 +79,7 @@ def main():
             raise SetupError(
                 "Clang was not found in PATH. On Mac, install Apple's command-line tools. "
                 "On Windows, install LLVM and enable its bin folder in PATH. "
-                "Reopen the terminal afterward. See README.md, checkpoint 3."
+                "Reopen the terminal afterward. See README.md, Prerequisites."
             )
         run([compiler, "--version"])
 

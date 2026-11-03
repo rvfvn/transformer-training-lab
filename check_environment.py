@@ -32,7 +32,7 @@ def main():
         require(sys.version_info[:2] == (3, 12), "Use the class Python 3.12 interpreter.")
         require(sys.prefix != sys.base_prefix, "Use the project's .venv Python; this is not a virtual environment.")
         compiler = shutil.which("clang")
-        require(compiler, "Clang is missing from PATH. See README.md, checkpoint 3, then reopen the terminal.")
+        require(compiler, "Clang is missing from PATH. See README.md, Prerequisites, then reopen the terminal.")
         print("Compiler:", compiler, flush=True)
         result = subprocess.run([compiler, "--version"], capture_output=True, text=True)
         require(result.returncode == 0, f"Clang could not run: {result.stderr.strip()}")

@@ -19,7 +19,7 @@ goto finished
 
 :missing_python
 echo Python launcher not found. Install Python 3.12 with its launcher, reopen the terminal, and try again. 1>&2
-echo See README.md, checkpoint 2. 1>&2
+echo See README.md, Prerequisites. 1>&2
 popd
 exit /b 2
 

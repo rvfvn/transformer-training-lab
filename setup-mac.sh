@@ -12,7 +12,7 @@ fi
 
 if ! command -v "$LAB_PYTHON" >/dev/null 2>&1; then
     echo "Python 3.12 was not found. Install it, reopen Terminal, and try again." >&2
-    echo "See README.md, checkpoint 2. The macOS system Python may be older." >&2
+    echo "See README.md, Prerequisites. The macOS system Python may be older." >&2
     exit 2
 fi
 
