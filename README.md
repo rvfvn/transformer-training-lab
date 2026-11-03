@@ -64,5 +64,3 @@ Validate configurations after editing:
 # Windows
 .\.venv\Scripts\python.exe check_configs.py
 ```
-
-**Current status:** setup, diagnostics, and configuration templates are available. Model implementation, data generation, and the training harness are the next stage.
